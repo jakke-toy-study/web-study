@@ -1,0 +1,93 @@
+h3 {
+    color: green;
+}
+
+p {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: red;
+    text-align: center;
+  }
+
+.card {
+background-color: lightgray;
+padding: 10px;
+border-radius: 5px;
+}
+
+#header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 36px;
+    color: green;
+  }
+
+div#main {
+padding: 20px;
+border: 1px solid black;
+}
+
+/* 태그 선택자 */
+div {
+    color: black;
+}
+
+/* 클래스 선택자 */
+.test-title {
+    color: green;
+}
+
+/* ID 선택자 */
+#test-header {
+    color: blue;
+}
+
+/* CSS Attributes */
+.style-text-blue {
+    color: blue;
+}
+
+.style-background-gray {
+    background-color: lightgray;
+}
+
+.style-text-fontsize {
+    font-size: 24px;
+}
+
+.style-text-fontfamily {
+    font-family: Arial, sans-serif;
+}
+
+.style-text-fontweight {
+    font-weight: bold;
+}
+
+.style-box-a {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightblue;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.style-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.style-box-b {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
