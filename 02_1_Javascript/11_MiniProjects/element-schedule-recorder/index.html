@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Schedule Recorder</title>
+    <script src="./src/main.js" type="module"></script>
+</head>
+<body>
+    <div style="display:flex; flex-direction: row; gap: 8px">
+        <div style="border-width:1px; border-color:black;">
+            <canvas id="three-viewport"></canvas>
+        </div>
+        <!-- Add item -->
+        <div>
+            건축 부재 스케쥴러
+            <hr />
+            <div style="display: flex; flex-direction: column; gap: 8px; width: 300px;">
+                <div style="display: flex; flex-direction: row; gap: 8px; width: 100%;">
+                    <span>계획된 일정</span><input type="date" style="flex-grow: 1;">
+                </div>
+                <div style="display: flex; flex-direction: row; gap: 8px; width: 100%;">
+                    <span>실제 일정</span><input type="date" style="flex-grow: 1;">
+                </div>
+                <div style="display: flex; flex-direction: row; gap: 8px; width: 100%;"></div>
+                    <span>부재종류</span>
+                    <select size="4">
+                        <option itemid="column">기둥</option>
+                        <option itemid="beam">보</option>
+                        <option itemid="slab">슬래브</option>
+                        <option itemid="wall">벽</option>
+                        <option itemid="foundation">기초</option>
+                    </select>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
