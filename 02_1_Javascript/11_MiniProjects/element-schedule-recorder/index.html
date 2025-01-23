@@ -24,15 +24,19 @@
                 </div>
                 <div style="display: flex; flex-direction: row; gap: 8px; width: 100%;"></div>
                     <span>부재종류</span>
-                    <select size="4">
-                        <option itemid="column">기둥</option>
-                        <option itemid="beam">보</option>
-                        <option itemid="slab">슬래브</option>
-                        <option itemid="wall">벽</option>
-                        <option itemid="foundation">기초</option>
+                    <select size="5" id="selector-elementType">
+                        <option value="column">기둥</option>
+                        <option value="beam">보</option>
+                        <option value="slab">슬래브</option>
+                        <option value="wall">벽</option>
+                        <option value="foundation">기초</option>
                     </select>
                 </div>
                 <hr />
+                <div id="element-options" style="display: flex; flex-direction: column; gap: 8px; height: 200px">
+                </div>
+                <hr/>
+                <button style="width: 100%; height: 24px" id="add-element">부재 추가</button>
             </div>
         </div>
     </div>

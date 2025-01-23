@@ -1,4 +1,5 @@
 import { SceneController } from "../api/three/initializeThree";
+import { ElementCollection } from "../model/collections/elementCollections";
 
 /**
  * AppController는 SceneController를 관리하는 클래스입니다.
@@ -13,7 +14,15 @@ export class AppController {
      * @param {HTMLCanvasElement | undefined} canvasElement 캔버스 요소
      */
     constructor(canvasElement) {
+        /**
+         * @type SceneController
+         */
         this.sceneController = new SceneController(canvasElement);
+
+        /**
+         * @type ElementCollection
+         */
+        this.elementCollection = new ElementCollection();
     }
 
     /**
